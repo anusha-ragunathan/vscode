@@ -6,9 +6,11 @@
     "search.location": "panel",
     "window.zoomLevel": 0,
     "editor.formatOnSave": true,
-    "go.formatTool": "gofmt",
+    "go.formatTool": "goimports",
     "editor.formatOnType": true,
-    "go.useLanguageServer": true,
+    // Turning languageServer off improves definition lookups for me.
+    "go.useLanguageServer": false,
+    // This is the recommendation
     "go.docsTool": "gogetdoc",
     // Run 'go build'/'go test -c' on save.
     "go.buildOnSave": "off",
@@ -18,4 +20,6 @@
     // Run 'go tool vet' on save.
     "go.vetOnSave": "off",
     "go.lintTool": "gometalinter",
+    "vim.cursorStylePerMode.insert": "line",
+    "go.autocompleteUnimportedPackages": true,
 }
