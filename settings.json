@@ -1,0 +1,21 @@
+{
+    "window.openFilesInNewWindow": "on",
+    "window.newWindowDimensions": "inherit",
+    "window.openFoldersInNewWindow": "on",
+    "files.autoSave": "afterDelay",
+    "search.location": "panel",
+    "window.zoomLevel": 0,
+    "editor.formatOnSave": true,
+    "go.formatTool": "gofmt",
+    "editor.formatOnType": true,
+    "go.useLanguageServer": true,
+    "go.docsTool": "gogetdoc",
+    // Run 'go build'/'go test -c' on save.
+    "go.buildOnSave": "off",
+    // Run Lint tool on save.
+    "go.lintOnSave": "off",
+    // "go.lintTool": "golint",
+    // Run 'go tool vet' on save.
+    "go.vetOnSave": "off",
+    "go.lintTool": "gometalinter",
+}
