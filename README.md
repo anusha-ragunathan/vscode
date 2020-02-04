@@ -10,5 +10,7 @@ If extension doesnt work, look at Tools-> Toggle Developer Tools -> Console
 Plenty of useful info.
 eg. if extension crashed, panic stack available there.
 reinstall an extension by
-```cd ${HOME}/.vscode/extensions/ms-vscode.go-{your  version}
-npm install```
+```
+cd ${HOME}/.vscode/extensions/ms-vscode.go-{your  version}
+npm install
+```
